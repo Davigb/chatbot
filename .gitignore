@@ -1,3 +1,37 @@
-﻿node_modules/
+﻿# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
 .env
+
+# Logs
+logs
+*.log
+*.out
+*.err
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# WhatsApp-web.js cache
+.wwebjs_cache/
+.wwebjs_auth/
+
+# Build / runtime
+dist/
+build/
+tmp/
+*.tmp
+
+# Excel or heavy files (não versionar planilhas)
 *.xlsx
+*.xls
+*.csv
