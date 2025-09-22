@@ -1,0 +1,55 @@
+
+# ==========================
+# Node.js padrão
+# ==========================
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ==========================
+# Sessões WhatsApp Web.js
+# ==========================
+.session
+.session-data.json
+tokens
+auth
+*.data.json
+
+# ==========================
+# Arquivos temporários
+# ==========================
+tmp/
+temp/
+.cache/
+dist/
+build/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs
+logs/*
+
+# ==========================
+# Arquivos grandes que não precisam no GitHub
+# ==========================
+*.xlsx
+*.csv
+*.zip
+*.rar
+*.7z
+*.bak
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.psd
+*.svg
